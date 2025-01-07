@@ -15,8 +15,7 @@ dependencies:
   collection: ^1.16.0
   audioplayers: ^5.2.1
 
-  flet:
-    path: ../flet/
+  flet: ^0.25.2
 
 dev_dependencies:
   flutter_test:
