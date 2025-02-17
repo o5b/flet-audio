@@ -3,10 +3,10 @@ name = "audio_example"
 version = "1.0.0"
 description = ""
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.12"
 dependencies = [
-  "flet-audio @ git+https://github.com/flet-dev/flet-audio.git",
-  "flet>=0.25.2",
+  "flet-audio @ git+https://github.com/o5b/flet-audio.git",
+  "flet>=0.26.0",
 ]
 
 
@@ -30,5 +30,5 @@ path = "src"
 
 [tool.uv]
 dev-dependencies = [
-    "flet[all]>=0.25.2",
+    "flet[all]>=0.26.0",
 ]

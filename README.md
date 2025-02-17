@@ -1,6 +1,6 @@
 # Flet Audio control
 
-`Audio` control for Flet.
+`Audio` control for Flet. This fork includes the Flutter plugin [wakelock_plus](https://github.com/fluttercommunity/wakelock_plus), which allows keeping the device screen active, preventing it from going into sleep mode.
 
 ## Usage
 

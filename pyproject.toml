@@ -9,23 +9,23 @@ authors = [
 classifiers = [
   "License :: OSI Approved :: Apache Software License",
 ]
-requires-python = ">=3.8"
+requires-python = ">=3.12"
 dependencies = [
-    "flet>=0.25.1",
+    "flet>=0.26.0",
 ]
 
 [project.urls]
 Homepage = "https://flet.dev"
 Documentation = "https://flet.dev/docs/controls/audio"
-Repository = "https://github.com/flet-dev/flet-audio"
-Issues = "https://github.com/flet-dev/flet-audio/issues"
+Repository = "https://github.com/o5b/flet-audio"
+Issues = "https://github.com/o5b/flet-audio/issues"
 
 [tool.setuptools.package-data]
 "flutter.flet_audio" = ["**/*"]
 
 [tool.uv]
 dev-dependencies = [
-    "flet[all]>=0.25.1",
+    "flet[all]>=0.26.0",
 ]
 
 [tool.setuptools]

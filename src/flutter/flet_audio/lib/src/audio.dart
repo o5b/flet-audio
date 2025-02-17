@@ -6,6 +6,7 @@ import 'package:collection/collection.dart';
 import 'package:flet/flet.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
+import 'package:wakelock_plus/wakelock_plus.dart';
 
 class AudioControl extends StatefulWidget {
   final Control? parent;
@@ -68,6 +69,9 @@ class _AudioControlState extends State<AudioControl> with FletStoreMixin {
     _onSeekCompleteSubscription = player?.onSeekComplete.listen((event) {
       _onSeekComplete?.call();
     });
+
+    // The following line will enable the Android and iOS wakelock.
+    WakelockPlus.enable();
 
     widget.control.onRemove.clear();
     widget.control.onRemove.add(_onRemove);
