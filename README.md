@@ -6,6 +6,26 @@
 
 Add `flet-audio` as dependency (`pyproject.toml` or `requirements.txt`) to your Flet project.
 
+```
+flet-audio @ git+https://github.com/o5b/flet-audio.git
+```
+
+### Add `flet-audio` as dependency `pyproject.toml`. Example:
+
+```
+dependencies = [
+  "flet-audio @ git+https://github.com/o5b/flet-audio.git",
+  "flet>=0.26.0",
+]
+```
+
+### Add `flet-audio` as dependency `requirements.txt`. Example:
+
+```
+flet[all]==0.26.0
+flet-audio @ git+https://github.com/o5b/flet-audio.git
+```
+
 ## Example
 
 ```py
